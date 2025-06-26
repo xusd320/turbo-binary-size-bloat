@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 
+[lib]
+crate-type = ["dylib"]
+
 [dependencies]
 anyhow = "1.0.98"
 turbo-tasks = { git = "https://github.com/vercel/next.js.git", package = "turbo-tasks", branch = "canary" }
